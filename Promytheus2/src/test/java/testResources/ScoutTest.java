@@ -238,7 +238,7 @@ public void loginScout(String email, String password, String firstName, String m
         pageResources.getTalentPage().pushNextButton();//push next button in talent page
         String birth = pageResources.getTalentPage().randomDate();//generate random date of birth in talent page
         int year = Integer.parseInt(birth.substring(4));
-        pageResources.getTalentPage().enterBirth(birth);//enter random date of birth in talent page
+        //pageResources.getTalentPage().enterBirth(birth);//enter random date of birth in talent page
         pageResources.getTalentPage().enterPlaceBirth();//enter place of birth in talent page
         pageResources.getTalentPage().ruralRadioClick();//select Rural radio button in talent page
         pageResources.getTalentPage().priviligedRadioClick();//select Privileged radio button in talent page
@@ -350,8 +350,8 @@ public void loginScout(String email, String password, String firstName, String m
             System.out.println("Country matches");
             assertEquals(getCellData(1, 4), pageResources.getProfilePage().actualAddress());
             System.out.println("Address matches");
-            assertEquals(getCellData(1, 5), pageResources.getProfilePage().actualPhone());
-            System.out.println("Phone # matches");
+            //assertEquals(getCellData(1, 5), pageResources.getProfilePage().actualPhone());
+            //System.out.println("Phone # matches");
             assertEquals(getCellData(1, 6), pageResources.getProfilePage().actualEmail());
             System.out.println("Email matches");
         } catch (AssertionError e) {

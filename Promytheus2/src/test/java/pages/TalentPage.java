@@ -1,4 +1,7 @@
 package pages;
+import com.github.javafaker.Faker;
+import fabricator.Fabricator;
+import fabricator.enums.DateFormat;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -7,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import testResources.PageResources;
 
 import java.util.List;
 import java.util.Random;
@@ -19,10 +23,14 @@ public class TalentPage {
     WebDriverWait wait;
     public Random rand = new Random();
     JavascriptExecutor ex;
+    Fabricator fabricator;
+    PageResources pageResources;
+    Faker fake = new Faker();
     public TalentPage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, 5);
         PageFactory.initElements(driver, this);
+        ex = (JavascriptExecutor)driver;
     }
     //generating random date of birth mm/dd/yyyy
     public String randomDate () {
@@ -84,7 +92,7 @@ public class TalentPage {
     WebElement placeBirthField;
     @FindBy(xpath = "//input[@value='RURAL']")
     WebElement ruralRadio;
-    @FindBy(xpath = "//div//label[contains(.,'Privileged')]//span")
+    @FindBy(xpath = "//input[@value='PRIVILEGED']")
     WebElement priviligedRadio;
     @FindBy(id = "height")
     WebElement heightField;
@@ -92,23 +100,23 @@ public class TalentPage {
     WebElement weightField;
     @FindBy(xpath = "//select[@name=('trainingHistory')]")
     WebElement Select;
-    @FindBy(xpath = "//div/label[contains(.,'No')]//span")
+    @FindBy(xpath = "//input[@name='coached'][@value = 'false']")
     WebElement noRadio;
-    @FindBy (xpath = "//div/label[contains(.,'Sometimes')]//span")
+    @FindBy (xpath = "//input[@value='SOMETIMES']")
     WebElement sometimesRadio;
     @FindBy (xpath = "//input[@name='schoolName']")
     WebElement schoolNameField;
     @FindBy (xpath = "//input[@name='schoolSuccessLevel']")
     WebElement schoolSuccessLevelField;
-    @FindBy (xpath = "//div/label[contains(.,'Advanced')]//span")
+    @FindBy (xpath = "//input[@value='ADVANCED']")
     WebElement advancedRadio;
-    @FindBy (xpath = "//div/label[contains(.,'Family')]//span")
+    @FindBy (xpath = "//label[contains(text(),'Family')]//input")
     WebElement familyRadio;
-    @FindBy (xpath = "//textarea[@name=('testimony0')]")
+    @FindBy (xpath = "//textarea[@name='testimonyTextFieldFamily0']")
     WebElement testimonyField;
     @FindBy (xpath = "//input[@name='workProduct']")
     WebElement workProduct;
-    @FindBy (xpath = "//div/label[contains(.,'Middle')]//span")
+    @FindBy (xpath = "//input[@value='MIDDLE']")
     WebElement middleRadio;
     @FindBy (xpath = "//select[@name='maritalStatus']")
     WebElement selectMarital;
@@ -126,9 +134,8 @@ public class TalentPage {
     WebElement discoveryYearsField;
     @FindBy (xpath = "//select[@name='interestLevel']")
     WebElement selectInterest;
-    @FindBy (xpath = "//span[contains(text(),'Quick Tests')]")
-    public
-    WebElement quickTestsTab;
+    @FindBy (xpath = "//*[@id='talentForm']//wizard-form//div//ol//li[10]")
+    public WebElement quickTestsTab;
     @FindBy (xpath = "//*[@id='talentForm']//wizard-form//div//ol//li[2]")
     WebElement personalTab;
     @FindBy (xpath = "//button[contains(text(),'Finish')]")
@@ -141,6 +148,9 @@ public class TalentPage {
     WebElement signOutIcon;
     @FindBy(xpath = "//a[@title='Edit']")
     WebElement editButton;
+    @FindBy(css = "body > app > splash-screen > div")//app logo
+    WebElement cover;
+
     public void enterSchoolSuccessLevel(){
         schoolSuccessLevelField.sendKeys(RandomStringUtils.randomAlphanumeric(7));
     }
@@ -159,31 +169,33 @@ public class TalentPage {
         training.selectByIndex(i);
     }
     public void enterWeight(){
-        weightField.sendKeys(RandomStringUtils.randomNumeric(2,3));
+        weightField.sendKeys(String.valueOf(fabricator.alphaNumeric().randomInt(10,250)));
     }
     public void enterHeight() throws  Exception {
-        String height = RandomStringUtils.randomNumeric(2,3);
+        String height = String.valueOf(fabricator.alphaNumeric().randomInt(40,250));
         heightField.sendKeys(height);
         setCellData(height,1,findColumn("Height"));
     }
     public void priviligedRadioClick(){
-        priviligedRadio.click();
+        ex.executeScript("arguments[0].click();",priviligedRadio);
     }
     public void ruralRadioClick(){
-        ruralRadio.click();
+
+        ex.executeScript("arguments[0].click();",ruralRadio);
     }
     public void enterPlaceBirth() throws Exception {
-        String birthPlace=RandomStringUtils.randomAlphabetic(5,7);
+        String birthPlace=fake.address().country();
         placeBirthField.sendKeys(birthPlace);
         setCellData(birthPlace,1,findColumn("Birth Place"));
     }
-    public void enterBirth(String dateBirth) throws Exception {
+    public void enterBirth(int year) throws Exception {
+        String dateBirth = fabricator.contact().birthday(year, DateFormat.dd_MM_YYYY_BACKSLASH);
         birthField.sendKeys(dateBirth);
-        dateBirth=dateBirth.substring(0,2)+"/"+dateBirth.substring(2,4)+"/"+dateBirth.substring(4);
+        //dateBirth=dateBirth.substring(0,2)+"/"+dateBirth.substring(2,4)+"/"+dateBirth.substring(4);
         setCellData(dateBirth,1,findColumn("Birth Date"));
     }
-    public void enterEmail(){
-        emailField.sendKeys(RandomStringUtils.randomAlphabetic(7)+"@getnada.com");
+    public void enterEmail(String otherEmail){
+        emailField.sendKeys(otherEmail);
     }
     public void enterAddress(String address){
         addressField.sendKeys(address);
@@ -224,7 +236,16 @@ public class TalentPage {
         finishButton.click();
     }
     public void gotoQuickTestsTab() {
-        quickTestsTab.click();
+        try {
+            quickTestsTab.click();
+        } catch (Exception e) {
+            killCover();
+            quickTestsTab.click();
+        }
+    }
+    private void killCover(){
+        JavascriptExecutor ex = (JavascriptExecutor) driver;
+        ex.executeScript("arguments[0].parentNode.removeChild(arguments[0]);",cover);
     }
     public void interestLevelListSelect() {
         Select interestLevelList = new Select(selectInterest);
@@ -234,7 +255,7 @@ public class TalentPage {
         discoveryYearsField.sendKeys(String.valueOf(randBetween(year,2017)));
     }
     public void EnterHeadline() {
-        headlineField.sendKeys(RandomStringUtils.randomAscii(50,150));
+        headlineField.sendKeys(fabricator.words().paragraph(200));
     }
     public void disabilitiesListSelect() {
         Select disabilitiesList = new Select(selectDisability);
@@ -243,15 +264,17 @@ public class TalentPage {
         disabilitiesList.selectByIndex(rand.nextInt(i));
     }
     public void enterUsdField() {
-        usdField.sendKeys(RandomStringUtils.randomNumeric(4,6));
+        usdField.sendKeys(String.valueOf(fabricator.alphaNumeric().randomInt(10000000)));
     }
     public void relationListSelect() {
         Select relationList = new Select(selectRelation);
         relationList.selectByIndex(rand.nextInt(4));
     }
-    public void workStatusListSelect() {
+    public void workStatusListSelect() throws Exception {
         Select workStatusList = new Select(selectWorkStatus);
-        workStatusList.selectByIndex(rand.nextInt(4));
+        int el=rand.nextInt(4);
+        workStatusList.selectByIndex(el);
+        setCellData(workStatusList.getFirstSelectedOption().getAttribute("value"),1,findColumn("Work Status"));
     }
     public void maritalListSelect() throws Exception {
         Select maritalList = new Select(selectMarital);
@@ -267,20 +290,20 @@ public class TalentPage {
         middleRadio.click();
     }
     public void enterWorkProduct() {
-        workProduct.sendKeys(RandomStringUtils.randomAlphabetic(30,49));
+        workProduct.sendKeys(fabricator.words().paragraph(50));
     }
     public void enterTestimony() {
         try {
-            testimonyField.sendKeys(RandomStringUtils.randomAlphabetic(50));
+            testimonyField.sendKeys(fabricator.words().paragraph(50));
         }   catch (StaleElementReferenceException e) {
-            testimonyField.sendKeys(RandomStringUtils.randomAlphabetic(50));
+            testimonyField.sendKeys(fabricator.words().paragraph(50));
         }
     }
     public void familyRadioClick() {
         familyRadio.click();
     }
     public void advancedRadioClick() {
-        advancedRadio.click();
+        ex.executeScript("arguments[0].click();",advancedRadio);
     }
     public void gotoMyProfile() {
         try {
@@ -300,10 +323,12 @@ public class TalentPage {
     }
     public void pushEditButton() {
         editButton.click();
+        wait.until(ExpectedConditions.visibilityOf(categoryButton));
     }
     public String getBirthDate() {
         return birthField.getAttribute("value");
     }
+
     public String getBirthPlace() {
         return placeBirthField.getAttribute("value");
     }
@@ -319,6 +344,11 @@ public class TalentPage {
     public String getHeight() {
         return heightField.getAttribute("value");
     }
+    public String actualWorkStatus() {
+        Select workStatusList = new Select(selectWorkStatus);
+        return workStatusList.getFirstSelectedOption().getAttribute("value");
+    }
+    public String getLName() {return lNameField.getAttribute("value");}
 }
 
 

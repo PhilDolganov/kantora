@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Select replaces items in textarea</title>
+<script type="text/javascript">
+var lastItem = false;
+
+function updateText(sel) {
+	var ta = document.getElementById("theText");
+	var item = sel.options[sel.selectedIndex].value;
+	if( lastItem ) {
+		ta.value = ta.value.replace(lastItem,item);
+	} else {
+		ta.value += item;
+	}
+	lastItem = item;
+}
+
+</script>
+</head>
+<body>
+<select id="shirt" onchange="updateText(this);">
+	<option value="00000001">Red T-Shirt</option>
+	<option value="00000002">Yellow T-Shirt</option>
+	<option value="00000003">Blue T-Shirt</option>
+	<option value="00000004">Green T-Shirt</option>
+	<option value="00000005">Live Octopus</option>
+</select>
+<textarea id="theText"></textarea>
+</body>
+</html>
