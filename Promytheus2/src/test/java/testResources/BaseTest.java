@@ -17,12 +17,12 @@ public class BaseTest {
     public String baseUrl;
     public String logedInUrl;
     public PageResources pageResources;
-    public static final String USERNAME = "portnovtest";
-    public static final String AUTOMATE_KEY = "e61af4a3-6c4a-4be9-89c4-1ee164d4e38e";
-    public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@ondemand.saucelabs.com:443/wd/hub";
+//    public static final String USERNAME = "portnovtest";
+//    public static final String AUTOMATE_KEY = "e61af4a3-6c4a-4be9-89c4-1ee164d4e38e";
+//    public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@ondemand.saucelabs.com:443/wd/hub";
 
-        @BeforeClass
-        public void remoteSetUp() throws MalformedURLException {
+ //       @BeforeClass
+//        public void remoteSetUp() throws MalformedURLException {
 
 
 ////    protected PageResources pageResources;
@@ -37,11 +37,11 @@ public class BaseTest {
 ////
 ////            driver = new RemoteWebDriver(new URL(URL1), caps);
 //
-        }
+ //       }
     @BeforeTest
     public void setUp() throws Exception {
-        //driver = new ChromeDriver();
-       //pageResources = new PageResources(driver);
+        driver = new ChromeDriver();
+       pageResources = new PageResources(driver);
         DesiredCapabilities caps = DesiredCapabilities.iphone();
         caps.setCapability("appiumVersion", "1.6.4");
         caps.setCapability("deviceName","iPhone 7 Plus Simulator");
@@ -52,8 +52,8 @@ public class BaseTest {
 
 
 
-        driver = new RemoteWebDriver(new URL(URL1), caps);
-        pageResources = new PageResources(driver);
+        //driver = new RemoteWebDriver(new URL(URL1), caps);
+       // pageResources = new PageResources(driver);
         wait = new WebDriverWait(driver, 5);
         baseUrl = "http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html";
         logedInUrl = "http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/talents.html";
