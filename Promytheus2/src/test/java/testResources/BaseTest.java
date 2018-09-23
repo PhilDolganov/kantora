@@ -17,12 +17,21 @@ public class BaseTest {
     public String baseUrl;
     public String logedInUrl;
     public PageResources pageResources;
+<<<<<<< HEAD
 //    public static final String USERNAME = "portnovtest";
 //    public static final String AUTOMATE_KEY = "e61af4a3-6c4a-4be9-89c4-1ee164d4e38e";
 //    public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@ondemand.saucelabs.com:443/wd/hub";
 
  //       @BeforeClass
 //        public void remoteSetUp() throws MalformedURLException {
+=======
+    public static final String USERNAME = "portnovtest";
+    public static final String AUTOMATE_KEY = "e61af4a3-6c4a-4be9-89c4-1ee164d4e38e";
+    public static final String URL1 = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@ondemand.saucelabs.com:443/wd/hub";
+
+        @BeforeClass
+        public void remoteSetUp() throws MalformedURLException {
+>>>>>>> 8869c3f1d57a8895e94aafaee95e0c3551828616
 
 
 ////    protected PageResources pageResources;
@@ -37,11 +46,19 @@ public class BaseTest {
 ////
 ////            driver = new RemoteWebDriver(new URL(URL1), caps);
 //
+<<<<<<< HEAD
  //       }
     @BeforeTest
     public void setUp() throws Exception {
         driver = new ChromeDriver();
        pageResources = new PageResources(driver);
+=======
+        }
+    @BeforeTest
+    public void setUp() throws Exception {
+        //driver = new ChromeDriver();
+       //pageResources = new PageResources(driver);
+>>>>>>> 8869c3f1d57a8895e94aafaee95e0c3551828616
         DesiredCapabilities caps = DesiredCapabilities.iphone();
         caps.setCapability("appiumVersion", "1.6.4");
         caps.setCapability("deviceName","iPhone 7 Plus Simulator");
@@ -52,8 +69,13 @@ public class BaseTest {
 
 
 
+<<<<<<< HEAD
         //driver = new RemoteWebDriver(new URL(URL1), caps);
        // pageResources = new PageResources(driver);
+=======
+        driver = new RemoteWebDriver(new URL(URL1), caps);
+        pageResources = new PageResources(driver);
+>>>>>>> 8869c3f1d57a8895e94aafaee95e0c3551828616
         wait = new WebDriverWait(driver, 5);
         baseUrl = "http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html";
         logedInUrl = "http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/talents.html";

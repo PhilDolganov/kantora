@@ -25,7 +25,7 @@ public class RegPage {
     WebElement userType;
     @FindBy(id ="signUpFirstName")//first name
     WebElement signUpFirstName;
-    @FindBy(id ="signUpMiddleName")//middle name
+    @FindBy(id ="signUpmiddleName")//middle name
     WebElement signUpmiddleName;
     @FindBy(id = "signUpLastName")//last name
     WebElement signUpLastName;
