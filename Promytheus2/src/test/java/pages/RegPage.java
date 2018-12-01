@@ -12,7 +12,7 @@ public class RegPage {
     private WebDriver driver;
     private WebDriverWait wait;
     JavascriptExecutor ex;
-    String baseUrl ="http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html";
+    String baseUrl ="http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-up.html";
     public RegPage(WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, 5);
@@ -25,7 +25,7 @@ public class RegPage {
     WebElement userType;
     @FindBy(id ="signUpFirstName")//first name
     WebElement signUpFirstName;
-    @FindBy(id ="signUpmiddleName")//middle name
+    @FindBy(id ="signUpMiddleName")//middle name
     WebElement signUpmiddleName;
     @FindBy(id = "signUpLastName")//last name
     WebElement signUpLastName;

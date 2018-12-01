@@ -152,7 +152,7 @@ public void loginRU(String email, String password, String firstName, String midd
         pageResources.getTalentPage().pushNextButton();//push next button in talent page
         String birth = pageResources.getTalentPage().randomDate();//generate random date of birth in talent page
         int year = Integer.parseInt(birth.substring(4));
-        pageResources.getTalentPage().enterBirth(birth);//enter random date of birth in talent page
+        //pageResources.getTalentPage().enterBirth(birth);//enter random date of birth in talent page
         pageResources.getTalentPage().enterPlaceBirth();//enter place of birth in talent page
         pageResources.getTalentPage().ruralRadioClick();//select Rural radio button in talent page
         pageResources.getTalentPage().priviligedRadioClick();//select Privileged radio button in talent page

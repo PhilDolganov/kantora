@@ -42,7 +42,7 @@ public class RUTest extends BaseTest {
             e.printStackTrace();
         }
         XlsData.setUpTable(new String[]{"First Name", "Middle Name", "Last Name", "Country", "Address", "Phone", "Email", "Password",
-                "Birth Date", "Birth Place", "Height", "Marital"});//column names setup in excel data sheet
+                "Birth Date", "Birth Place", "Height", "Marital", "Work Status"});//column names setup in excel data sheet
         pageResources.getRegPage().inputNames(firstName, middleName, lastName);//enter first,middle, last names in registration form
         XlsData.setCellData(firstName, 1, findColumn("First Name"));//enter first name in excel data sheet
         XlsData.setCellData(middleName, 1, findColumn("Middle Name"));//enter middle name in excel data sheet
@@ -60,9 +60,8 @@ public class RUTest extends BaseTest {
         pageResources.getRegPage().pushCreateAccount();//push create account button in registration form
         wait.until(ExpectedConditions.visibilityOf(pageResources.getLoginPage().username));
 
-
         try {
-            assertEquals(baseUrl, driver.getCurrentUrl());//assert if expected url matches actual url
+            assertEquals(baseUrl+"/sign-in.html", driver.getCurrentUrl());//assert if expected url matches actual url
         } catch (AssertionError e) {
             System.err.println("Registration form has not been submitted");
         }
@@ -78,12 +77,12 @@ public class RUTest extends BaseTest {
         pageResources.getTalentPage().pushYouButton();//select yourself option
         Thread.sleep(1000);
         pageResources.getTalentPage().pushConfirm();//push confirm button
-
         pageResources.getTalentPage().selectCategory();//select category in talent page
         pageResources.getTalentPage().pushNextButton();//push next button in talent page
-        String birth = pageResources.getTalentPage().randomDate();//generate random date of birth in talent page
-        int year = Integer.parseInt(birth.substring(4));//format date of birth string
-        pageResources.getTalentPage().enterBirth(birth);//enter random date of birth in talent page
+        //String birth = pageResources.getTalentPage().randomDate();//generate random date of birth in talent page
+        //int year = Integer.parseInt(birth.substring(4));//format date of birth string
+        int year = fabricator.alphaNumeric().randomInt(100);
+        pageResources.getTalentPage().enterBirth(year);//enter random date of birth in talent page
         pageResources.getTalentPage().enterPlaceBirth();//enter place of birth in talent page
         pageResources.getTalentPage().ruralRadioClick();//select Rural radio button in talent page
         pageResources.getTalentPage().priviligedRadioClick();//select Privileged radio button in talent page
@@ -121,6 +120,7 @@ public class RUTest extends BaseTest {
         pageResources.getTalentPage().pushEditButton();//push edit button
         Thread.sleep(1000);
         pageResources.getTalentPage().pushNextButton();//push next button
+        Thread.sleep(500);
         String actualFName = pageResources.getTalentPage().getFName();//retrieve actual first name
         System.out.println(getCellData(1, findColumn("First Name")));//get first name from excel sheet
         System.out.println(actualFName);//print ut first name
@@ -177,6 +177,11 @@ public class RUTest extends BaseTest {
         } catch (AssertionError e) {
             System.out.println("Marital Does Not Match");//error message due to actual/expected miss match
         }
+        String actualWorkStatus=pageResources.getTalentPage().actualWorkStatus();
+        System.out.println(actualWorkStatus);
+        System.out.println(getCellData(1,findColumn("Work Status")));
+        try {assertTrue(actualWorkStatus.matches(getCellData(1,findColumn("Work Status"))));}
+        catch (AssertionError e) {System.out.println("Work Status does not match");}
         pageResources.getTalentPage().pushNextButton();//story
         wait.until(ExpectedConditions.visibilityOf(pageResources.getTalentPage().quickTestsTab));
         pageResources.getTalentPage().gotoQuickTestsTab();//finish
@@ -195,8 +200,8 @@ public class RUTest extends BaseTest {
             System.out.println("Country matches");
             assertEquals(getCellData(1, 4), pageResources.getProfilePage().actualAddress());
             System.out.println("Address matches");
-            assertEquals(getCellData(1, 5), pageResources.getProfilePage().actualPhone());
-            System.out.println("Phone # matches");
+            //assertEquals(getCellData(1, 5), pageResources.getProfilePage().actualPhone());
+            //System.out.println("Phone # matches");
             assertEquals(getCellData(1, 6), pageResources.getProfilePage().actualEmail());
             System.out.println("Email matches");
         } catch (AssertionError e) {
