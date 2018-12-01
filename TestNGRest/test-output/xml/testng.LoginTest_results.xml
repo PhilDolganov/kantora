@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Priority Test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.264">
+  <properties />
+  
+  
+            <testcase name="loginFaceBook" time="3.312" classname="testng.LoginTest" />
+                <testcase name="testLogin" time="0.001" classname="testng.LoginTest" />
+                <testcase name="loginFaceBook" time="3.335" classname="testng.LoginTest" />
+                <testcase name="testLogin" time="0.001" classname="testng.LoginTest" />
+                <testcase name="loginFaceBook" time="3.241" classname="testng.LoginTest" />
+                <testcase name="loginFaceBook" time="3.373" classname="testng.LoginTest" />
+                <testcase name="testLogin" time="0.001" classname="testng.LoginTest" />
+                <testcase name="testLogin" time="0.000" classname="testng.LoginTest" />
+      
+</testsuite>

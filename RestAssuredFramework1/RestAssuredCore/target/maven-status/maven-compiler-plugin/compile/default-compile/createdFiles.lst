@@ -1,0 +1,7 @@
+com\easybix\utils\PayloadGenerator.class
+com\easybix\utils\TestUtils.class
+com\easybix\RestAssuredCore\BaseTest.class
+com\easybix\utils\URL.class
+com\easybix\RestAssuredCore\RESTCalls.class
+com\easybix\resources\ExtentReporterNG.class
+com\easybix\RestAssuredCore\BaseAssertions.class

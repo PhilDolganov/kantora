@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic Functional TestSuite">
+    <test verbose="2" name="Basic Tests">
+        <classes>
+            <class name="tests.LoginTests"/>
+            <class name="tests.MenuTests"/>
+            <class name="tests.NavigationTests"/>
+        </classes>
+    </test> <!-- Default test -->
+</suite> <!-- Default suite -->

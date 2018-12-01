@@ -1,0 +1,3 @@
+com\rest\utils\TestUtils.class
+com\rest\client\HTTPClient.class
+com\rest\base\TestBase.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-03-18T08:01:50Z" name="Suite" finished-at="2018-03-18T08:01:55Z" duration-ms="5402">
+    <groups>
+    </groups>
+    <test started-at="2018-03-18T08:01:50Z" name="Test" finished-at="2018-03-18T08:01:55Z" duration-ms="5402">
+      <class name="com.easybix.Issue.CreateIssue">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.easybix.Issue.CreateIssue@4e096385]" started-at="2018-03-18T08:01:50Z" name="setUp" finished-at="2018-03-18T08:01:53Z" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createIssue()[pri:0, instance:com.easybix.Issue.CreateIssue@4e096385]" started-at="2018-03-18T08:01:53Z" name="createIssue" finished-at="2018-03-18T08:01:55Z" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+      </class> <!-- com.easybix.Issue.CreateIssue -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-24T18:35:34Z" name="com.rest.test.TestGetCall" finished-at="2018-06-24T18:35:36Z" duration-ms="2027">
+    <groups>
+    </groups>
+    <test started-at="2018-06-24T18:35:34Z" name="Command line test" finished-at="2018-06-24T18:35:36Z" duration-ms="2027">
+      <class name="com.rest.test.TestGetCall">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rest.test.TestGetCall@3e2e18f2]" started-at="2018-06-24T18:35:34Z" name="setUp" finished-at="2018-06-24T18:35:34Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetCall()[pri:0, instance:com.rest.test.TestGetCall@3e2e18f2]" started-at="2018-06-24T18:35:34Z" name="testGetCall" finished-at="2018-06-24T18:35:35Z" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCall -->
+        <test-method signature="testGetCallResponse()[pri:0, instance:com.rest.test.TestGetCall@3e2e18f2]" started-at="2018-06-24T18:35:35Z" name="testGetCallResponse" finished-at="2018-06-24T18:35:36Z" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCallResponse -->
+      </class> <!-- com.rest.test.TestGetCall -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.rest.test.TestGetCall -->
+</testng-results>

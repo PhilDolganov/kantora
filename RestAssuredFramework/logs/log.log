@@ -1,0 +1,26 @@
+2018-02-23 16:38:27 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-23 16:38:27 INFO  SampleTestClass1:19 - Second Test
+2018-02-23 16:38:27 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:07:42 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:07:42 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:07:42 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:09:09 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:09:09 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:09:09 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:10:24 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:10:24 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:10:24 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:20:02 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:20:02 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:20:02 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:30:24 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:30:24 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:30:24 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-02-27 21:32:23 DEBUG SampleTestClass1:14 - First Test Case
+2018-02-27 21:32:23 INFO  SampleTestClass1:19 - Second Test
+2018-02-27 21:32:23 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero
+2018-03-04 02:19:36 DEBUG SampleTestClass1:14 - First Test Case
+2018-03-04 02:19:36 INFO  SampleTestClass1:19 - Second Test
+2018-03-09 13:28:58 DEBUG SampleTestClass1:14 - First Test Case
+2018-03-09 13:28:58 INFO  SampleTestClass1:19 - Second Test
+2018-03-09 13:28:58 ERROR SampleTestClass2:26 - java.lang.ArithmeticException: / by zero

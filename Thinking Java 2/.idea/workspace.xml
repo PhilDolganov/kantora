@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3b4d37-e54a-43f3-b75b-33bd3340a71b" name="Default" comment="Merge branch 'master' of https://github.com/PhilDolganov/kantora&#10;&#10;# Conflicts:&#10;#&#9;Promytheus/.idea/workspace.xml&#10;#&#9;Promytheus2/.idea/misc.xml&#10;#&#9;Promytheus2/.idea/workspace.xml&#10;#&#9;Promytheus2/Promytheus2.iml&#10;#&#9;Promytheus2/src/test/java/pages/RegPage.java&#10;#&#9;Promytheus2/src/test/java/testResources/BaseTest.java&#10;#&#9;Promytheus2/target/test-classes/pages/RegPage.class&#10;#&#9;Promytheus2/target/test-classes/testResources/BaseTest.class&#10;#&#9;QAUber/.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/../ToolsQA/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thinking Java 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Thinking Java 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kantora2" beforeDir="false" afterPath="$PROJECT_DIR$/../kantora2" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Thinking_Java_2$UsingStringBuilder.coverage" NAME="UsingStringBuilder Coverage Results" MODIFIED="1514663264039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>strings.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Thinking_Java_2$Factories.coverage" NAME="Factories Coverage Results" MODIFIED="1511732409766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>interfaces.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Thinking_Java_2$UsingStringBuilder.coverage" NAME="UsingStringBuilder Coverage Results" MODIFIED="1514663264039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>strings.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Thinking_Java_2$MultiInterfaces.coverage" NAME="MultiInterfaces Coverage Results" MODIFIED="1512675590265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>innerclasses.*</FILTER>
@@ -35,90 +37,40 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1701370800">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.compare" value="1" />
-          <entry key="git.branch.merge" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics/CovariantReturnTypes.java">
+        <entry file="file://$PROJECT_DIR$/src/containers/Enumerations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="267">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics/GenericsAndReturnTypes.java">
+        <entry file="file://$PROJECT_DIR$/src/containers/Stacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics/OrdinaryArguments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="868">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
-                <element signature="e#65#66#0" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics/SelfBoundingAndCovariantArguments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics/PlainGenericInheritance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/generics/E34_SelfBounded.java">
+        <entry file="file://$PROJECT_DIR$/src/containers/Bits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            <state relative-caret-position="1516">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,25 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/generics/ArrayOfGenericReference.java" />
-        <option value="$PROJECT_DIR$/src/generics/ArrayOfGeneric.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericArray.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericArray2.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericArrayWithTypeToken.java" />
-        <option value="$PROJECT_DIR$/src/generics/BasicBounds.java" />
-        <option value="$PROJECT_DIR$/src/generics/InheritBounds.java" />
-        <option value="$PROJECT_DIR$/src/generics/EpicBattle.java" />
-        <option value="$PROJECT_DIR$/src/generics/E25_Bounds.java" />
-        <option value="$PROJECT_DIR$/src/generics/CovariantArrays.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericsAndCovariance.java" />
-        <option value="$PROJECT_DIR$/src/generics/E26_CovariantArrays2.java" />
-        <option value="$PROJECT_DIR$/src/generics/E27_GenericsAndCovariance2.java" />
-        <option value="$PROJECT_DIR$/src/generics/CmpilerIntelligence.java" />
-        <option value="$PROJECT_DIR$/src/generics/Holder.java" />
-        <option value="$PROJECT_DIR$/src/generics/SuperTypeWildcards.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericWriting.java" />
-        <option value="$PROJECT_DIR$/src/generics/GenericReading.java" />
-        <option value="$PROJECT_DIR$/src/generics/E28_GenericReadAndWrite.java" />
         <option value="$PROJECT_DIR$/src/generics/UnboundedWildcards1.java" />
         <option value="$PROJECT_DIR$/src/generics/UnboundedWildcards2.java" />
         <option value="$PROJECT_DIR$/src/generics/Wildcards.java" />
@@ -191,14 +124,27 @@
         <option value="$PROJECT_DIR$/src/generics/SelfBoundingAndCovariantArguments.java" />
         <option value="$PROJECT_DIR$/src/generics/PlainGenericInheritance.java" />
         <option value="$PROJECT_DIR$/src/generics/E34_SelfBounded.java" />
+        <option value="$PROJECT_DIR$/src/containers/MapPerformance2.java" />
+        <option value="$PROJECT_DIR$/src/containers/E35_MapPerformance2.java" />
+        <option value="$PROJECT_DIR$/src/containers/E36_MapEntrySlowMap.java" />
+        <option value="$PROJECT_DIR$/src/containers/E37_SimpleHashMapArrays.java" />
+        <option value="$PROJECT_DIR$/src/containers/E38_HashMapLoadFactor.java" />
+        <option value="$PROJECT_DIR$/src/containers/E39_SimpleHashMapRehash.java" />
+        <option value="$PROJECT_DIR$/src/containers/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/containers/ListSortSearch.java" />
+        <option value="$PROJECT_DIR$/src/containers/E40_ComparableClass.java" />
+        <option value="$PROJECT_DIR$/src/containers/E41_HashedComparable.java" />
+        <option value="$PROJECT_DIR$/src/containers/E42_AlphaComparable.java" />
+        <option value="$PROJECT_DIR$/src/containers/ReadOnly.java" />
+        <option value="$PROJECT_DIR$/src/containers/Synchronization.java" />
+        <option value="$PROJECT_DIR$/src/containers/FailFast.java" />
+        <option value="$PROJECT_DIR$/src/containers/References.java" />
+        <option value="$PROJECT_DIR$/src/containers/CanonicalMapping.java" />
+        <option value="$PROJECT_DIR$/src/containers/Enumerations.java" />
+        <option value="$PROJECT_DIR$/src/containers/Stacks.java" />
+        <option value="$PROJECT_DIR$/src/containers/Bits.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -212,28 +158,15 @@
     <option name="width" value="2800" />
     <option name="height" value="1560" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Thinking Java 2" type="cbb8eebc:String" user="Thinking Java 2" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Thinking Java 2" type="cbb8eebc:String" user="Thinking Java 2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,49 +183,23 @@
               <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Thinking Java 2" type="cbb8eebc:String" user="Thinking Java 2" />
             </path>
             <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="watercolors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassTypeCapture.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="E04_GenericSequence.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="E18_OceanLife.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Thinking Java 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking Java 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryConstraint.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Thinking Java 2" type="cbb8eebc:String" user="Thinking Java 2" />
+              <item name="src" type="cbb8eebc:String" user="src" />
             </path>
           </expand>
           <select />
@@ -301,18 +208,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="SearchEverywhereHistoryKey" value="Store.toString()&#9;null&#9;null&#10;setter&#9;ACTION&#9;GenerateSetter" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543556241938" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../octopus/src/main/java" />
-    <property name="SearchEverywhereHistoryKey" value="Store.toString()&#9;null&#9;null&#10;setter&#9;ACTION&#9;GenerateSetter" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\phild_000\IdeaProjects" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="typeinfo" />
       <recent name="interfaces" />
@@ -320,16 +231,16 @@
       <recent name="polymorphism.cycle" />
       <recent name="polymorphism" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="innerclasses" />
+      <recent name="Initialization.Book" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\phild_000\IdeaProjects\Thinking Java 2" />
       <recent name="C:\Users\phild_000\IdeaProjects\Thinking Java 2\src\polymorphism" />
       <recent name="C:\Users\phild_000\IdeaProjects\Thinking Java 2\src\reusing" />
       <recent name="C:\Users\phild_000\IdeaProjects\Thinking Java 2\src\net\mindview\util" />
       <recent name="C:\Users\phild_000\IdeaProjects\Thinking Java 2\src\methods" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="innerclasses" />
-      <recent name="Initialization.Book" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -430,20 +341,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E34_SelfBounded">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.Bits">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CRGWithBasicHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.CRGWithBasicHolder" />
+    <configuration name="Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.Bits" />
       <module name="Thinking Java 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,13 +362,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E34_SelfBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.E34_SelfBounded" />
+    <configuration name="CanonicalMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.CanonicalMapping" />
       <module name="Thinking Java 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,13 +376,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdinaryArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.OrdinaryArguments" />
+    <configuration name="Enumerations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.Enumerations" />
       <module name="Thinking Java 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,13 +390,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlainGenericInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.PlainGenericInheritance" />
+    <configuration name="References" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.References" />
       <module name="Thinking Java 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,13 +404,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unconstrained" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Unconstrained" />
+    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers.Stacks" />
       <module name="Thinking Java 2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="containers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -519,7 +430,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -527,29 +438,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CRGWithBasicHolder" />
-      <item itemvalue="Application.Unconstrained" />
-      <item itemvalue="Application.OrdinaryArguments" />
-      <item itemvalue="Application.PlainGenericInheritance" />
-      <item itemvalue="Application.E34_SelfBounded" />
+      <item itemvalue="Application.References" />
+      <item itemvalue="Application.CanonicalMapping" />
+      <item itemvalue="Application.Enumerations" />
+      <item itemvalue="Application.Stacks" />
+      <item itemvalue="Application.Bits" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E34_SelfBounded" />
-        <item itemvalue="Application.PlainGenericInheritance" />
-        <item itemvalue="Application.OrdinaryArguments" />
-        <item itemvalue="Application.Unconstrained" />
-        <item itemvalue="Application.CRGWithBasicHolder" />
+        <item itemvalue="Application.Bits" />
+        <item itemvalue="Application.Stacks" />
+        <item itemvalue="Application.Enumerations" />
+        <item itemvalue="Application.CanonicalMapping" />
+        <item itemvalue="Application.References" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +567,17 @@
       <workItem from="1517937599589" duration="3762000" />
       <workItem from="1518285264691" duration="8155000" />
       <workItem from="1518373349756" duration="5587000" />
-      <workItem from="1537731386654" duration="1491000" />
+      <workItem from="1537731386654" duration="2435000" />
+      <workItem from="1538879746744" duration="1462000" />
+      <workItem from="1541561105935" duration="916000" />
+      <workItem from="1541563006019" duration="6290000" />
+      <workItem from="1541651120282" duration="2651000" />
+      <workItem from="1541654197865" duration="3546000" />
+      <workItem from="1541737630724" duration="6115000" />
+      <workItem from="1542000197453" duration="2409000" />
+      <workItem from="1543003471581" duration="202000" />
+      <workItem from="1543003700342" duration="4641000" />
+      <workItem from="1543553129324" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/PhilDolganov/kantora&#10;&#10;# Conflicts:&#10;#&#9;Promytheus/.idea/workspace.xml&#10;#&#9;Promytheus2/.idea/misc.xml&#10;#&#9;Promytheus2/.idea/workspace.xml&#10;#&#9;Promytheus2/Promytheus2.iml&#10;#&#9;Promytheus2/src/test/java/pages/RegPage.java&#10;#&#9;Promytheus2/src/test/java/testResources/BaseTest.java&#10;#&#9;Promytheus2/target/test-classes/pages/RegPage.class&#10;#&#9;Promytheus2/target/test-classes/testResources/BaseTest.class&#10;#&#9;QAUber/.idea/workspace.xml">
       <created>1537732640445</created>
@@ -665,38 +586,46 @@
       <option name="project" value="LOCAL" />
       <updated>1537732640445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/PhilDolganov/kantora&#10;&#10;# Conflicts:&#10;#&#9;Promytheus/.idea/workspace.xml&#10;#&#9;Promytheus2/.idea/misc.xml&#10;#&#9;Promytheus2/.idea/workspace.xml&#10;#&#9;Promytheus2/Promytheus2.iml&#10;#&#9;Promytheus2/src/test/java/pages/RegPage.java&#10;#&#9;Promytheus2/src/test/java/testResources/BaseTest.java&#10;#&#9;Promytheus2/target/test-classes/pages/RegPage.class&#10;#&#9;Promytheus2/target/test-classes/testResources/BaseTest.class&#10;#&#9;QAUber/.idea/workspace.xml">
+      <created>1537732886445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537732886445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="562885000" />
+    <option name="totallyTimeSpent" value="595560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3273312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21800643" />
       <window_info id="Structure" order="1" weight="0.24951768" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892907" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977492" weight="0.32892907" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4971061" weight="0.32777777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984701" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5016077" side_tool="true" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50289387" side_tool="true" weight="0.32777777" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="9" weight="0.32336578" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32892907" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49839228" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49903536" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4977492" weight="0.32962447" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24951768" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32969153" />
       <window_info anchor="right" id="Database" order="5" />
@@ -704,6 +633,7 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32969153" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27138263" />
@@ -738,161 +668,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/PhilDolganov/kantora&#10;&#10;# Conflicts:&#10;#&#9;Promytheus/.idea/workspace.xml&#10;#&#9;Promytheus2/.idea/misc.xml&#10;#&#9;Promytheus2/.idea/workspace.xml&#10;#&#9;Promytheus2/Promytheus2.iml&#10;#&#9;Promytheus2/src/test/java/pages/RegPage.java&#10;#&#9;Promytheus2/src/test/java/testResources/BaseTest.java&#10;#&#9;Promytheus2/target/test-classes/pages/RegPage.class&#10;#&#9;Promytheus2/target/test-classes/testResources/BaseTest.class&#10;#&#9;QAUber/.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/PhilDolganov/kantora&#10;&#10;# Conflicts:&#10;#&#9;Promytheus/.idea/workspace.xml&#10;#&#9;Promytheus2/.idea/misc.xml&#10;#&#9;Promytheus2/.idea/workspace.xml&#10;#&#9;Promytheus2/Promytheus2.iml&#10;#&#9;Promytheus2/src/test/java/pages/RegPage.java&#10;#&#9;Promytheus2/src/test/java/testResources/BaseTest.java&#10;#&#9;Promytheus2/target/test-classes/pages/RegPage.class&#10;#&#9;Promytheus2/target/test-classes/testResources/BaseTest.class&#10;#&#9;QAUber/.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/generics/ListOfGenerics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/ArrayOfGenericReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/ArrayOfGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericArrayWithTypeToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/BasicBounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/InheritBounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/EpicBattle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3186">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/E25_Bounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/CovariantArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericsAndCovariance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/E26_CovariantArrays2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/CmpilerIntelligence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/Holder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericWriting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1136">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericReading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/E27_GenericsAndCovariance2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/E28_GenericReadAndWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/SuperTypeWildcards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/UnboundedWildcards1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generics/UnboundedWildcards2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1061,34 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/CovariantReturnTypes.java">
+    <entry file="file://$PROJECT_DIR$/E20_VowelsInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/GenericsAndReturnTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/OrdinaryArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="293">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1101,21 +857,212 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generics/PlainGenericInheritance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="567">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/OrdinaryArguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/GenericsAndReturnTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics/CovariantReturnTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generics/E34_SelfBounded.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/MapPerformance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E35_MapPerformance2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E36_MapEntrySlowMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="53" selection-start-line="2" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E37_SimpleHashMapArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3159">
+          <caret line="117" column="69" selection-start-line="117" selection-start-column="69" selection-end-line="117" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E38_HashMapLoadFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SimpleHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E39_SimpleHashMapRehash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ListSortSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="31" column="104" selection-start-line="31" selection-start-column="104" selection-end-line="31" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E41_HashedComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E42_AlphaComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ReadOnly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/FailFast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CanonicalMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/References.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="37" column="67" lean-forward="true" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/E40_ComparableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Enumerations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Stacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Bits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1516">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,6 +1134,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
